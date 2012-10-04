@@ -2,14 +2,14 @@
 
 pkgname=baboon-git
 pkgver=20121004
-pkgrel=1
+pkgrel=2
 pkgdesc="Detect merge conflicts in realtime."
 arch=(any)
 url="http://baboon-project.org"
 license=('MIT')
 groups=()
-depends=('python2' 'python2-sleekxmpp-git-devel' 'python2-watchdog-git'
-  'python2-termcolor')
+depends=('python2' 'python2-sleekxmpp-git-devel' 'python2-dnspython-git'
+         'python2-watchdog-git' 'python2-termcolor')
 makedepends=(curl)
 provides=()
 conflicts=()
