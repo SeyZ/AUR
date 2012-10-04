@@ -1,3 +1,5 @@
-*.tar.xz
-src/
-pkg/
+# Ignore everything.
+*
+
+# Except the PKGBUILD file.
+!PKGBUILD
